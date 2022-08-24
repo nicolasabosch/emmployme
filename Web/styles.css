@@ -80,5 +80,11 @@
 
       margin: 30px;
       padding-left: 30px;
+      margin-top: -200px;
+      width: auto;
 }
-    
+    .texto {
+
+      font-family: Poppins;
+      font-size: 81px;
+    }
