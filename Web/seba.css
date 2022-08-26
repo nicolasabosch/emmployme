@@ -4,7 +4,11 @@
     box-sizing: border-box;
   }
   
-  
+  .row
+  {
+    display: flex;
+    flex-direction: column;
+  }
   
   .form-register {
     width: 400px;
@@ -102,13 +106,42 @@
   border-radius: 28px; 
   width: auto;
   border-bottom: 2px solid;
+  justify-content: center;
 }
-
+img
+{
+  justify-content: center;
+}
 .register {
 
-  margin: 30px;
+
   padding-left: 40px;
   margin-top: 25px;
+  width: 50%;
+  height: auto;
 
+}
+.form-inlinemb-4col-lg-4
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.form-inlinemb-4col-lg-4 input
+{
+  margin-left: 10px;
+  width: 40%;
   
+}
+.form-inlinemb-5col-lg-4
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form-inlinemb-5col-lg-4 input
+{
+  margin-left: 10px;
+  width: 40%;
 }
