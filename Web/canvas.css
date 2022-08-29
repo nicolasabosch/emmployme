@@ -2,5 +2,14 @@
 
     border-radius: 4px;
     background-color: #ECEEFF;
+     
+}
+
+.header img{
+    height: 75px;
+}
+.float-right{
+    margin-top: -45px;
+    padding-right: 240px;
     
 }
