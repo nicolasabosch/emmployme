@@ -74,9 +74,9 @@
 
     .login {
 
-      margin: 30px;
+      margin: 70px;
       padding-left: 30px;
-      margin-top: -200px;
+      margin-top: -150px;
       
 }
     .texto {
@@ -95,11 +95,9 @@
   padding-bottom: 20px;
   padding-left: 10px;
   padding-right: 10px;
-  box-shadow: 0 19px 38px #0000004d, 0 15px 12px #00000038;
-  border: 1px solid;
+  border: 3px solid;
   border-radius: 28px; 
   width: auto;
-  border-bottom: 2px solid;
 }
 
 .register {
