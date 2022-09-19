@@ -72,12 +72,10 @@
   padding: 10px; }
 
   .login {
-
-    margin: 30px;
     margin: 70px;
     padding-left: 30px;
-    margin-top: -200px;
     margin-top: -150px;
+    margin-bottom: 0;
 
 }
   .texto {
