@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .form-register {
+    width: 400px;
+    background: #fdfdfd;
+    padding: 30px;  
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(0, 0, 0);
+    box-shadow: 7px 13px 37px #000;
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #000000;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: black;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #1f53c5;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
+  .center {
+    margin: auto;
+    width: 40%;
+    padding: 10px; }
+    
+    .eseba {
+    margin: auto;
+    width: 50%;
+    padding: 10px; }
+  
+    .login {
+  
+      margin: 30px;
+      margin: 70px;
+      padding-left: 30px;
+      margin-top: -200px;
+      margin-top: -150px;
+  
+  }
+    .texto {
+      font-family: Poppins;
+      font-size: 3.5rem;
+    }
+    .imagen {
+      border-bottom: 2px solid ;
+      
+      
+    }
+  .card {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 0 19px 38px #0000004d, 0 15px 12px #00000038;
+  border: 1px solid;
+  border: 3px solid;
+  border-radius: 28px; 
+  width: auto;
+  border-bottom: 2px solid;
+  }
+  
+  .register {
+  margin: 30px;
+  padding-left: 40px;
+  margin-top: 25px;
+  background-color: #ECEEFF;
+  
+  }
