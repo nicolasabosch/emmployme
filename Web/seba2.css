@@ -250,7 +250,7 @@ aside .sidebar a{
         main .date {
             display: inline-block;
             background: var(--color-light);
-            border-radius: var (--border-radius-1);
+            border-radius: var(--border-radius-1);
             margin-top: 1rem;
             padding: 0.5rem 1.6rem;
 
@@ -282,7 +282,7 @@ aside .sidebar a{
         } 
 
         main .insights > div span{
-            background: coral;
+            background: var(--color-primary);
             padding: 0.5rem;
             border-radius: 50%;
             color: var(--color-white);
@@ -291,7 +291,7 @@ aside .sidebar a{
 
         } 
 
-        main .insights > div .expenses span{
+        main .insights > div.expenses span{
             background: var(--color-danger);
         } 
 
@@ -314,15 +314,63 @@ aside .sidebar a{
 
         main .insights .progress{
             position: relative;
-            width: 92px;
-            height: 92px;
+            width: 90px;
+            height: 90px;
             border-radius: 50%;
 
 
         }
 
-        .main .insights svg{
-            background: red;
+        main .insights svg{
+    
+            width: 7rem;
+            height: 7rem;
+        }
+
+        main .insights svg circle{
+            fill: none;
+            stroke: var(--color-primary);
+            stroke-width: 14;
+            stroke-linecap: round;
+            transform: translate(5px, 5px);
+            stroke-dasharray: 110;
+            stroke-dashoffset: 92;
+
+        }
+
+        main .insights .sales svg circle{
+            stroke-dashoffset: -30;
+            stroke-dasharray: 200;
+        }
+
+        main .insights .expenses svg circle{
+            stroke-dashoffset: 20;
+            stroke-dasharray: 80;
+        }
+
+        main .insights .income svg circle{
+            stroke-dashoffset: 35;
+            stroke-dasharray: 110;
+        }
+
+        main .insights .progress .number {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+
+        }
+
+        main .insights small {
+            margin-top: 1.3rem;
+            display:  block;
+            
         }
 
 
