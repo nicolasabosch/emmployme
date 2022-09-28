@@ -422,7 +422,76 @@ aside .sidebar a{
         display: block;
         margin: 1rem auto;
         color: var(--color-primary);
+
+    }
+
+    .right {
+
+        margin-top: 1.4rem;
+
+    }   
+
+    .right .top{
+        display: flex;
+        justify-content: end;
+        gap: 2rem;
+       
         
     }
 
+    .right .top button {
 
+        display:  none;
+
+    }
+
+    .right  .theme-toggler {
+
+        background: var(--color-light);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 1.6rem;
+        width: 4.2rem;
+        cursor: pointer;
+        border-radius: var(--card-border-radius-1);
+    }
+
+    .right .theme-toggler span{
+        font-size: 1.2rem;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .right .theme-toggler span.active{
+
+        background: var(--color-primary);
+        color: white;
+        border-radius: var(--border-radius-1);
+
+    }
+
+    .right .top .profile{
+        display:  flex;
+        gap: 2rem;
+        text-align: right;
+        
+    }
+
+    .right .recent-updates{
+        margin-top: 0.0rem;
+
+
+    }
+
+    .right .recent-updates .update{
+        background: var(--color-white);
+        padding: var(--card-padding);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--box-shadow);
+        transition: all 300ms ease;
+    }
