@@ -482,8 +482,15 @@ aside .sidebar a{
         
     }
 
-    .right .recent-updates{
-        margin-top: 0.0rem;
+    .right .recent-updates {
+
+        margin-top: 1rem;
+
+    }
+
+
+    .right .recent-updates h2{
+        margin-top: 0.8rem;
 
 
     }
@@ -494,4 +501,17 @@ aside .sidebar a{
         border-radius: var(--card-border-radius);
         box-shadow: var(--box-shadow);
         transition: all 300ms ease;
+    }
+
+    .right .recent-updates .update:hover{
+
+        box-shadow: none;
+
+    }
+
+    .right .recent-updates .update .update{
+
+        display:  grid;
+        grid-template-columns: 2.6rem auto;
+        margin-bottom: 1rem,;
     }
