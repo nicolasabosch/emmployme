@@ -75,11 +75,7 @@
     font-size: 4.5rem;
   }
 
-  .imagen {
-    border-bottom: 2px solid ;
-    
-    
-  }
+  
   
 .card {  /* es re lindo, por dios y la santisima virgen María, madre de Dios nadie toque esto*/
 padding-top: 40px;
@@ -87,11 +83,12 @@ padding-bottom: 20px;
 padding-left: 10px;
 padding-right: 10px;
 box-shadow: 0 19px 38px #0000004d, 0 15px 12px #00000038;
-border: 1px solid;
+
 border: 3px solid;
+
 border-radius: 28px; 
 width: auto;
-border-bottom: 2px solid;
+
 
 }
 .texto{
