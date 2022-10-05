@@ -81,7 +81,7 @@ body {
   font-weight: bold;
   color: #fff; /* IE8 proofing */
   color: rgba(255,255,255,.75);
-  border-bottom: 2px solid transparent;
+  border-bottom: 2px solid ;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
@@ -94,6 +94,8 @@ body {
 .masthead-nav > .active > a:focus {
   color: #fff;
   border-bottom-color: #fff;
+  border-bottom-color: #fff;
+
 }
 
 @media (min-width: 768px) {

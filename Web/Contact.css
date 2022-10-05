@@ -42,8 +42,8 @@ body {
   width: 100%;
   height: 600px;
   background-color:#333 ;
-  height: 100%; 
-  min-height: 100%;
+  height: 100%; /*clave para elñ codigo*/
+  min-height: 100%;/*clave para el codigo*/
 }
 .site-wrapper-inner {
   display: table-cell;
@@ -80,20 +80,23 @@ body {
   font-size: 16px;
   font-weight: bold;
   color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
-  border-bottom: 2px solid transparent;
+  color: #fff; /* esto no es el error */
+  border-bottom: 2px solid ;
 }
+
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: #a9a9a9;
+  border-bottom-color: #ffffff;
   border-bottom-color: rgba(255,255,255,.25);
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
-.masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
+.masthead-nav > .active > a:focus { /*esto no es el error*/
+  color: rgba(255, 255, 255, 0.75);
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255, 255, 255, 0.25);
+  
 }
 
 @media (min-width: 768px) {
