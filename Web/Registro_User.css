@@ -1,175 +1,35 @@
 * {
-    margin: 5px;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Poppins;
-    font-size: 14px;
-   
-}
-  
-  
-  .row
-  {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .form-register {
-    width: 400px;
-    background: #fdfdfd;
-    padding: 30px;  
-    margin: 0 auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: rgb(0, 0, 0);
-    box-shadow: inset 1px 1px  22px px #000;
-  }
-  
-  .form-register h4 {
-    font-size: 22px;
-    margin-bottom: 20px;
-  }
-  
-  .controls {
-    width: 100%;
-    background: #ffffff;
-    padding: 10px;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: 1px solid #000000;
-    font-family: 'calibri';
-    font-size: 18px;
-    color: black;
-  }
-  
-  .form-register p {
-    height: 40px;
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-  }
-  
-  .form-register a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .form-register a:hover {
-    color: white;
-    text-decoration: underline;
-  }
-  
-  .form-register .botons {
-    width: 100%;
-    background: #1f53c5;
-    border-radius: 4px;
-    margin-bottom: 16px;
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
-  }
-  .center {
-    margin: auto;
-    width: 40%;
-    
-    padding: 10px; }
-
-    .eseba {
-    margin: auto;
-    width: 50%;
-    padding: 10px; }
-
-
-    .login {
-
-      margin: 30px;
-      padding-left: 30px;
-      margin-top: -125px;
-      
-}
-    .texto {
-
-      font-family: Poppins;
-      font-size: 60px;
-    }
-
-
-    
-.card {
-  padding-top: 40px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  box-shadow: 0 19px 38px #0000004d, 0 15px 12px #00000038;
-  border: 1px solid;
-  border-radius: 28px; 
-  width: auto;
-  border-bottom: 2px solid;
-  justify-content: center;
-}
-
-img
-{
-  justify-content: center;
-  
-}
-
-.register {
-
-
-  padding-left: 40px;
-  margin-top: 25px;
-  width: 50%;
-  height: auto;
-
-}
-.form-inlinemb-4col-lg-4
-{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.form-inlinemb-4col-lg-4 input
-{
-  margin-left: 10px;
-  width: 40%;
-  
-}
-.form-inlinemb-5col-lg-4 
-{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.form-inlinemb-5col-lg-4 input
-{
-  margin-left: 10px;
-  width: 40%;
-}
-.card
-{
-  padding-top: 40px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  box-shadow: 0 19px 38px #0000004d, 0 15px 12px #00000038;
-  border: 3px solid;
-  border-radius: 28px; 
-  width: 500px;
-}
-.txt-registo-usuario{
-  font-size: 30px;
-  font-family: Poppins;
   margin: auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+  
 }
-#Yatienecuenta{
+
+
+.TodoElCuadrado {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 50px;
+  
+
  
-  font-family: Poppins;
-  margin: auto;
-  padding-left: 20px;
+
 }
+.card {  /* es re lindo, por dios y la santisima virgen María, madre de Dios nadie toque esto*/
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+box-shadow: 0 19px 38px #0000004d, 0 15px 12px #00000038;
+border: 3px solid;
+border-radius: 28px; 
+width: auto;
+
+}
+
+.img-top{
+  width: 100%;
+  
+}
+
