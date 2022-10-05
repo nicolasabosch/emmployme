@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: poppins;
+  font-weight: bold;
 }
 
 
@@ -42,4 +43,6 @@ width: auto;
   width: 100%;
   
 }
-
+img{
+  padding: 10px;
+}
