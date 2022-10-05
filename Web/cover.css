@@ -14,7 +14,6 @@ a:hover {
 .btn-default:hover,
 .btn-default:focus {
   color: #333;
-  margin-left: 10px;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
   border: 1px solid #fff;
@@ -33,7 +32,6 @@ body {
 body {
   color: #fff;
   text-align: center;
-  
   font-family: poppins;
 }
 
