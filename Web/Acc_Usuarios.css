@@ -18,8 +18,13 @@
 
 }
   
-
-  
+.mb-4, .col-lg-12{
+  margin-bottom: 12px!important;
+}
+p{
+  margin-bottom: 15px!important;
+  margin-top: 5px!important;
+}
   
 .card {  /* es re lindo, por dios y la santisima virgen María, madre de Dios nadie toque esto*/
 padding-top: 20px;
@@ -41,12 +46,12 @@ width: auto;
   
 
 }
-.img-top{
-  width: 100%;
-  
-}
-img{
+img{  /* logo emmployme, tamaño */
   padding: 10px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+
 }
 body{
   
