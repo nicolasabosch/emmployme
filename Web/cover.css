@@ -1,7 +1,7 @@
 /*
  * Globals
  */
-
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap');
 /* Links */
 a,
 a:focus,
@@ -33,7 +33,7 @@ body {
 body {
   color: #fff;
   text-align: center;
-  font-family: poppins;
+  font-family: "poppins";
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
