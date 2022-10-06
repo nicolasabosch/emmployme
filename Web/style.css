@@ -1,132 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;1,500;1,700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+  font-weight: bold;
 }
 
+
+
+  .TodoElCuadrado {
+    margin: 70px;
+    padding-right: 70px;
+    margin-top: -200px;
+    margin-bottom: 0;
+
+}
+  
+
+  
+  
+.card {  /* es re lindo, por dios y la santisima virgen María, madre de Dios nadie toque esto*/
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+box-shadow: 0 19px 38px #0000004d, 0 15px 12px #00000038;
+border: 3px solid;
+border-radius: 28px; 
+width: auto;
+
+
+}
+.texto{
+
+  font-size: 4.5rem;
+  margin-left: 90px;
+  margin-top: 90px;
+  
+
+}
+.img-top{
+  width: 100%;
+  
+}
+img{
+  padding: 10px;
+}
 body{
-    display: flex;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    background-color: white;
+  
+  background: #333;
 }
 
-.container{
 
-    max-width: 780px;
-    width: 100%;
-    background: #fff;
-    padding: 25px 30px;
-    border-radius: 5px;
+.wrapper{
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .static-txt{
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+  font-weight: bold;
 
 }
-
-.container .title{
-    font-size: 25px;
-    font-weight: 500;
-    position: relative;
+.wrapper .dynamic-txts{
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
 }
-
-.container .title::before{
-
-    content: '';
-    position: absolute;
+.dynamic-txts li{
+  list-style: none;
+  color: rgb(0, 144, 255);
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+  
+}
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #333;
+  border-left: 2px solid rgb(0, 144, 255);
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 30px);
+  }
+  100%{
     left: 0;
-    bottom: 0;
-    height: 3px;
-    width: 30px;
-    background: linear-gradient(135deg, #71b7e6, #9b59b6);
-
+  }
 }
 
-.container form .user-details{
 
-    width: 400px;
-    background: #fdfdfd;
-    padding: 30px;  
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: rgb(0, 0, 0);
-    box-shadow: 7px 13px 37px #000;
-} 
-
-form .user-details .input-box{
-    margin-bottom: 15px;
-    width: calc( 100% / 2 - 20px)
-}
-
-.user-details .input-box .details{
-
-    font-weight: 500;
-    margin-bottom: 5px;
-
-}
-
-.user-details .input-box input {
-
-    height: 45px;
-    width: 100%;
-    outline: none;
-    border-radius: 5px;
-    border-radius:  1px solid #ccc;
-    padding-left:  5px;
-    font-size: 16px;
-    border-bottom-width: 2px;
-    transition:  all 0.3 ease;
-}
-
-form .gender-details .gender-title{
-
-    font-size: 20px;
-    font-weight: 500;
-
-}
-
-form .gender-details .category{
-    display: flex;
-    width: 80%;
-    margin:  14px 0;
-    justify-content: space-between;
-}
-
-.gender-details .category label{
-
-    display: flex;
-    align-items: center;
-
-}
-
-.gender-details .category .dot {
-    height:  18px;
-    width: 18px;
-    background: #d9d9d9;
-    border-radius: 50%;
-    margin-right: 10px;
-    border: 5px solid transparent;
-
-}
-
-#dot-1:checked  ~ .category label .one,
-#dot-2:checked  ~ .category label .two,
-#dot-3:checked  ~ .category label .three{
- border: #d9d9d9;
-background: #9b59b6;
-}
-
-.form-register {
-    width: 400px;
-    background: #fdfdfd;
-    padding: 30px;  
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 4px;
-    font-family: 'calibri';
-    color: rgb(0, 0, 0);
-    box-shadow: 7px 13px 37px #000;
 

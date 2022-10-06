@@ -1,82 +1,96 @@
-<html lang=" en" dir="ltr">
-<head>
-<meta charset=" UTF-8">
-<title> Registro Empresa </title>
-<link rel="stylesheet" href="style.css">
-<link rel ="icon" href = "imagenes/E-SinFondo.png" >
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <header style="padding-left: 60px; padding-top: 40px;" class="texto"></header>
-</div>
-    <div class="float-right" >
-        <div class="login" >   
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<style>
+ 
+
+</style>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="Registro_User.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap">
+    <title>emmployme | Registro </title>
+    <link rel ="icon" href = "imagenes/E-SinFondo.png" >
+  </head>
+  <body class="body">
+   <header class="texto">
+    
+</div> 
+<div class="wrapper">
+  <div class="static-txt"> Bienvenido a</div>
+  <ul class="dynamic-txts">
+    <li><span>emmployme</span></li>
+    <li><span>tu primer trabajo</span></li>
+    <li><span>emmployme</span></li>
+    <li><span>tu primer trabajo</span></li>
+  </header>
+ 
+        <form >
           
-          <div class="card col-xl-12 col-lg-3">
-            <div class="card-img-top" style=" border-bottom: 2px solid; color: rgb(0, 144, 255) ;"> <img src= "imagenes/LogoGigante.png">
-            </div>
-              <div class="row">
-    <div class="col-md-6 mb-4 xs-4">
-    </div>
-      <div class="form-outline">
-    <div class="container">
-       <div class="title">Registro Empresa</div> 
-       <form action="#">
-        <div class="user-details">
-            <div class="input-box">
-                 <span class="details"> Nombre de la Empresa</span>
-                 <input type="text" placeholder="" required>
-            </div>
-            <div class="input-box">
-                <span class="details"> Correo elcetronico</span>
-                <input type="text" placeholder="" required>
-           </div>
-           <div class="input-box">
-            <span class="details"> Descripcion</span>
-            <input type="text" placeholder="" required>
-       </div>
-       <div class="input-box">
-        <span class="details"> Telefono</span>
-        <input type="text" placeholder="" required>
-   </div>
-   <div class="input-box">
-    <span class="details">Contraseña</span>
-    <input type="text" placeholder="" required>
+          <div class="float-right" >
+            <div class="TodoElCuadrado" >   
+              
+              <div class="card col-xl-12 col-lg-3">
+                <div class="img-top" style=" border-bottom: 2px solid; color: rgb(0, 144, 255) ;"> <img src= "imagenes/LogoGigante.png">
+                </div>
+                  <div class="row">
+        <div class="col-md-6 mb-4 xs-4">
+          <div class="form-outline">
+          </div>  
+          
+        </div>
+      
+    
+  </div>
+  <p class="text-xl-center text-md-center" style="font-size: 30px;">Registro  Empresa</p>
+  
+  <div class="form-outline mb-4 col-lg-12">
+    <input type="name" id="text" placeholder="Nombre empresa" class="form-control" />
+  </div>
+  
+  <div class="form-outline mb-4 col-lg-12"> 
+    <input type="rubro" id="text" placeholder="Rubro" class="form-control" />
+  </div>
+  
+  <div class="form-outline mb-4 col-lg-12">
+    <input type="email" id="emailHodler" placeholder="Mail de la empresa" class="form-control" />
+  </div>
+  <div class="form-outline mb-4 col-lg-12">
+    <input type="password" id="passwordHolder" placeholder="Ingrese contraseña" class="form-control" />
+  </div>
+  <div class="form-outline mb-4 col-lg-12">
+  <input type="phone" id="text" placeholder="Telefono" class="form-control" />
+  </div>
+
+  
+  <div class="align-items-center align-self-center col-md-8 ">
+  <button type="submit" class="btn btn-primary btn-block mb-4" >
+    Registrarse
+    
+  </button>
+  
+  
+  <p  class="text-xl-center"><a href="Acc_Usuarios.html">¿Ya tenes cuenta? Inicia Sesion</a></p>
+  </div>
+      
+      </div>
+    </form>
+  </div>
 </div>
-    <div class="input-box">
-    <span class="details"> Rubro </span>
-    <input type="text" placeholder="" required>
 </div>
-        </div>
-        <di v class="gender-details">
-            <input type="radio" name="gender " id="dot-1" >
-            <input type="radio" name="gender " id="dot-2" >
-            <input type="radio" name="gender " id="dot-3" >
-            <span class="gender-title"> Tipo de empresa </span>
-
-            <div class="category">
-                <label for="dot-1">
-                    <span class="dot one "></span>
-                    <span class="gender"> Fisica</span>
-
-                </label>
-                <label for="dot-2">
-                    <span class="dot two "></span>
-                    <span class="gender"> Virtual</span>
-                    
-                </label>
-
-                <label for="dot-3">
-                    <span class="dot three "></span>
-                    <span class="gender"> Bimodal</span>
-                    
-                </label>
-            </div>
-        </div>
-        <div class="button">
-            <input type="submit"  value="Registrarse">
-        </div>
-       </form>
+</div>
+</div>
+      
+      
+      </form>
     </div>
-</body>
-</html> 
+    
+  
+  </div>
+</div>
+
+      </body>
+</html>
