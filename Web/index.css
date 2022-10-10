@@ -85,7 +85,7 @@ body {
   font-weight: bold;
   color: #333; /* IE8 proofing */
  
-  border-bottom: 2px solid!important;
+  border-bottom: 2px solid!important; 
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
