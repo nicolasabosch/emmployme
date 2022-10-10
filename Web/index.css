@@ -6,17 +6,17 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #333;
 }
 
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-  color: #333;
+  color: #fff;
   text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
-  border: 1px solid #fff;
+  background-color: #333;
+  border: 1px solid #333;
   font-size: 25px;
 }
 
@@ -28,12 +28,16 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #fff;
+  background-color: #333;
+  font-family: poppins;
+  font-weight: bold;
 }
 body {
-  color: #fff;
+  color: #333;
   text-align: center;
   font-family: "poppins";
+  font-weight: bold;
+
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
@@ -41,7 +45,7 @@ body {
   display: table;
   width: 100%;
   height: 600px;
-  background-color:#333 ;
+  background-color:#fff ;
   height: 100%; 
   min-height: 100%;
 }
@@ -79,22 +83,22 @@ body {
   padding-left: 0;
   font-size: 16px;
   font-weight: bold;
-  color: #fff; /* IE8 proofing */
-  color: rgba(255,255,255,.75);
-  border-bottom: 2px solid ;
+  color: #333; /* IE8 proofing */
+ 
+  border-bottom: 2px solid!important;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
-  border-bottom-color: #a9a9a9;
+  border-bottom-color: #333;
   border-bottom-color: rgba(255,255,255,.25);
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: #fff;
-  border-bottom-color: #fff;
-  border-bottom-color: #fff;
+  color: #333;
+  border-bottom-color: #333;
+  border-bottom-color: #333;
 
 }
 
@@ -147,6 +151,8 @@ p{
     font-size: 1.5rem;
     margin-top: 60px;
     margin-bottom: 60px;
+    font-weight: 600!important;
+    
 }
 h3{
   font-weight: bold;
