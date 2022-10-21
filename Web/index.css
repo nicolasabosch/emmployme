@@ -28,7 +28,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
   font-family: poppins;
   font-weight: bold;
 }
@@ -157,3 +156,4 @@ p{
 h3{
   font-weight: bold;
 }
+
